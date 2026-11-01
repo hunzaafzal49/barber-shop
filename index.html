@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Royal Cut Barber Shop | Est. 2012</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute">
+  <defs>
+    <symbol id="i-scissors" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="12" cy="36" r="6"/><circle cx="36" cy="36" r="6"/><path d="M16 31L38 6M32 31L10 6"/></g></symbol>
+    <symbol id="i-razor" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 20h26l4 4-4 4H6z"/><path d="M32 24h10"/><path d="M10 20v8M16 20v8"/></g></symbol>
+    <symbol id="i-comb" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><rect x="5" y="12" width="38" height="10" rx="2"/><path d="M10 22v14M16 22v14M22 22v14M28 22v14M34 22v14M40 22v14"/></g></symbol>
+    <symbol id="i-brush" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M16 22h16l3 8H13z"/><path d="M24 22V6"/><path d="M14 34h20v8H14z"/></g></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2l3 7 7 .6-5.3 4.7 1.6 7.2L12 17.8 5.7 21.5l1.6-7.2L2 9.6 9 9z"/></symbol>
+  </defs>
+</svg>
+
+<header class="nav" id="nav">
+  <a href="#home" class="logo">Royal<span>Cut</span></a>
+  <button class="burger" id="burger" aria-label="Menu"><i></i><i></i><i></i></button>
+  <nav id="menu">
+    <a href="#home">Home</a><a href="#about">About</a><a href="#services">Services</a>
+    <a href="#video">Video</a><a href="#gallery">Gallery</a><a href="#team">Barbers</a>
+    <a href="#reviews">Reviews</a><a href="#contact" class="btn small">Book Now</a>
+  </nav>
+</header>
+
+<!-- 1. HERO -->
+<section class="hero" id="home">
+  <video autoplay muted loop playsinline poster="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=1600&q=80">
+    <source src="video/barber.mp4" type="video/mp4">
+  </video>
+  <div class="overlay"></div>
+  <div class="badge">
+    <div class="pole"></div>
+    <div class="badge-in">
+      <p class="est">Established 2012</p>
+      <h1>Royal Cut<br>Barber Shop</h1>
+      <div class="orn"><span></span><svg><use href="#i-scissors"/></svg><span></span></div>
+      <p class="tag">Classic haircuts, straight razor shaves and beard grooming for the modern gentleman.</p>
+      <div class="actions"><a href="#contact" class="btn">Book Appointment</a><a href="#services" class="btn ghost">Price List</a></div>
+    </div>
+    <div class="pole"></div>
+  </div>
+</section>
+
+<div class="stripe"></div>
+
+<!-- 2. ABOUT -->
+<section class="about paper" id="about">
+  <div class="wrap two">
+    <div class="photo-frame"><img src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&w=900&q=80" alt="Barber at work"></div>
+    <div>
+      <h2>Our Story</h2>
+      <div class="orn dark"><span></span><svg><use href="#i-razor"/></svg><span></span></div>
+      <p>Since 2012, Royal Cut has been the first choice for men who value old-school craft and enjoy a fresh, modern look. Hot towels, a sharp razor and experienced hands make every visit a moment to relax.</p>
+      <p>All our tools are sterilized after every customer, so your hygiene and health are never compromised.</p>
+      <div class="stats">
+        <div><b data-count="12">0</b><span>Years of experience</span></div>
+        <div><b data-count="8500">0</b><span>Happy customers</span></div>
+        <div><b data-count="6">0</b><span>Expert barbers</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="stripe"></div>
+
+<!-- 3. SERVICES -->
+<section class="services green" id="services">
+  <div class="wrap">
+    <h2 class="center">Services &amp; Price List</h2>
+    <div class="orn center-orn"><span></span><svg><use href="#i-comb"/></svg><span></span></div>
+    <p class="sub center">The same quality in every service.</p>
+    <div class="board">
+      <ul>
+        <li><svg><use href="#i-scissors"/></svg><div><h3>Classic Haircut</h3><p>Scissor cut, wash and styling</p></div><i></i><b>Rs 600</b></li>
+        <li><svg><use href="#i-razor"/></svg><div><h3>Hot Towel Shave</h3><p>Straight razor and hot towel</p></div><i></i><b>Rs 500</b></li>
+        <li><svg><use href="#i-comb"/></svg><div><h3>Beard Styling</h3><p>Shape, trim and beard oil</p></div><i></i><b>Rs 400</b></li>
+        <li><svg><use href="#i-brush"/></svg><div><h3>Facial &amp; Massage</h3><p>Deep cleansing and head massage</p></div><i></i><b>Rs 1,200</b></li>
+        <li><svg><use href="#i-scissors"/></svg><div><h3>Hair + Beard Combo</h3><p>Complete grooming package</p></div><i></i><b>Rs 900</b></li>
+        <li><svg><use href="#i-brush"/></svg><div><h3>Groom Package</h3><p>Special service for your wedding day</p></div><i></i><b>Rs 5,000</b></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<div class="stripe"></div>
+
+<!-- 4. VIDEO -->
+<section class="videoSec oxblood" id="video">
+  <div class="wrap two">
+    <div>
+      <h2>Watch Our Work</h2>
+      <div class="orn"><span></span><svg><use href="#i-brush"/></svg><span></span></div>
+      <p>See the atmosphere inside our shop and our barbers at work in this video.</p>
+      <a href="#contact" class="btn">Reserve Your Seat</a>
+    </div>
+    <div class="video-box">
+      <video id="mainVideo" controls preload="metadata" poster="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=1200&q=80">
+        <source src="video/barber.mp4" type="video/mp4">
+      </video>
+      <button class="play" id="playBtn" aria-label="Play video">&#9654;</button>
+    </div>
+  </div>
+</section>
+
+<div class="stripe"></div>
+
+<!-- 5. GALLERY -->
+<section class="gallery paper" id="gallery">
+  <div class="wrap">
+    <h2 class="center">Gallery</h2>
+    <div class="orn dark center-orn"><span></span><svg><use href="#i-scissors"/></svg><span></span></div>
+    <p class="sub center">A glimpse of some of our finest work.</p>
+    <div class="g-grid">
+      <figure><img src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=800&q=80" alt="Haircut"><figcaption>Classic Fade</figcaption></figure>
+      <figure><img src="https://images.unsplash.com/photo-1605497788044-5a32c7078486?auto=format&fit=crop&w=800&q=80" alt="Beard"><figcaption>Beard Trim</figcaption></figure>
+      <figure><img src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?auto=format&fit=crop&w=800&q=80" alt="Style"><figcaption>Modern Style</figcaption></figure>
+      <figure><img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=800&q=80" alt="Shop"><figcaption>Our Shop</figcaption></figure>
+      <figure><img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=800&q=80" alt="Shave"><figcaption>Razor Shave</figcaption></figure>
+      <figure><img src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&w=800&q=80" alt="Barber"><figcaption>At Work</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<div class="stripe"></div>
+
+<!-- 6. TEAM -->
+<section class="team navy" id="team">
+  <div class="wrap">
+    <h2 class="center">Our Master Barbers</h2>
+    <div class="orn center-orn"><span></span><svg><use href="#i-razor"/></svg><span></span></div>
+    <p class="sub center">Skilled hands, crafted for your style.</p>
+    <div class="grid3">
+      <div class="member"><div class="ph"><img src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&w=700&q=80" alt="Ali Raza"></div><h3>Ali Raza</h3><p>Master Barber</p></div>
+      <div class="member"><div class="ph"><img src="https://images.unsplash.com/photo-1605497788044-5a32c7078486?auto=format&fit=crop&w=700&q=80" alt="Usman Khan"></div><h3>Usman Khan</h3><p>Beard Specialist</p></div>
+      <div class="member"><div class="ph"><img src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=700&q=80" alt="Hamza Malik"></div><h3>Hamza Malik</h3><p>Fade Expert</p></div>
+    </div>
+  </div>
+</section>
+
+<div class="stripe"></div>
+
+<!-- 7. REVIEWS -->
+<section class="reviews paper" id="reviews">
+  <div class="wrap">
+    <h2 class="center">What Our Customers Say</h2>
+    <div class="orn dark center-orn"><span></span><svg><use href="#i-comb"/></svg><span></span></div>
+    <div class="review-card">
+      <div class="stars"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></div>
+      <div class="slider" id="slider">
+        <blockquote class="slide active"><p>I got an excellent fade. The staff is professional and the shop is spotless.</p><cite>Ahmed, Gujranwala</cite></blockquote>
+        <blockquote class="slide"><p>The hot towel shave is something else. I come here every month.</p><cite>Bilal, Wazirabad</cite></blockquote>
+        <blockquote class="slide"><p>Nobody beats Usman at beard styling. Highly recommended.</p><cite>Faizan, Sialkot</cite></blockquote>
+      </div>
+      <div class="dots" id="dots"></div>
+    </div>
+  </div>
+</section>
+
+<div class="stripe"></div>
+
+<!-- 8. CONTACT -->
+<section class="contact" id="contact">
+  <div class="wrap two">
+    <div>
+      <h2>Book an Appointment</h2>
+      <div class="orn"><span></span><svg><use href="#i-scissors"/></svg><span></span></div>
+      <p>Fill in the form and we will confirm your booking.</p>
+      <ul class="info-list">
+        <li><b>Address</b>Main G.T. Road, Gujranwala</li>
+        <li><b>Phone</b>0300-0000000</li>
+        <li><b>Timing</b>Daily, 10 AM to 10 PM</li>
+      </ul>
+    </div>
+    <form id="bookForm">
+      <h3>Appointment Card</h3>
+      <input type="text" id="name" placeholder="Your name" required>
+      <input type="tel" id="phone" placeholder="Phone number" required>
+      <select id="service"><option>Classic Haircut</option><option>Hot Towel Shave</option><option>Beard Styling</option><option>Facial &amp; Massage</option><option>Hair + Beard Combo</option></select>
+      <input type="date" id="date" required>
+      <button class="btn" type="submit">Confirm Booking</button>
+      <p class="msg" id="msg"></p>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <a href="#home" class="logo">Royal<span>Cut</span></a>
+  <p>© 2026 Royal Cut Barber Shop. All rights reserved.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
